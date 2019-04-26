@@ -10,11 +10,17 @@ public class DecoratorA extends Decorator {
     }
 
     public String methodA() {
+        /*
+         这里可以随意的组装算法
+         */
         System.out.println("方法A增强");
         return this.component.methodA();
     }
 
     public int methodB() {
+        /*
+         这里可以随意的组装算法
+         */
         System.out.println("方法B增强");
         return this.component.methodB();
     }
