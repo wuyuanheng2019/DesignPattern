@@ -5,6 +5,7 @@ import com.wyh.designpattern.factory.interfaces.Screen;
 
 public class Game {
     public static void main(String[] args) {
+
         /*
          * 创建子类工厂，得到子类
          */
