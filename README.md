@@ -8,3 +8,4 @@
 7、命令行模式----command
 8、状态模式----state
 9、桥接模式----bridging
+10、单例模式----single
