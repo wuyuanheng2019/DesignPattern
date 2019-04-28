@@ -1,9 +1,15 @@
 package com.wyh.designpattern.state.newstate;
 
 public class NewCoffeeMachine {
+
     final State NO_PAY, PAY, SOLD, SOLD_OUT;
+
+    //咖啡机的状态
     State state;
+
+    //拥有咖啡量
     int store;
+
     public NewCoffeeMachine(int store) {
         NO_PAY = new NoPayState(this);
         PAY = new PayState(this);
@@ -14,15 +20,19 @@ public class NewCoffeeMachine {
             this.state = NO_PAY;
         }
     }
+
     public void pay() {
         this.state.pay();
     }
+
     public void refund() {
         this.state.refund();
     }
+
     public void buy() {
         this.state.buy();
     }
+
     public void getCoffee() {
         this.state.getCoffee();
     }
