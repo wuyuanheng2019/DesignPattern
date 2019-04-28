@@ -7,3 +7,4 @@
 6、观察者设计模式----observer
 7、命令行模式----command
 8、状态模式----state
+9、桥接模式----bridging
